@@ -243,7 +243,7 @@ img {
 
 .body_right {
   display: grid;
-  grid-template-rows: 5rem auto 5rem auto;
+  grid-template-rows: 5rem 1fr 5rem 1fr;
   gap: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -252,4 +252,75 @@ img {
 .right_top_card,
 .right_bottom_card {
   border: 4px solid green;
+}
+
+.right_bottom_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.trending_user {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  border: 2px solid yellowgreen;
+}
+.trending_user > img {
+}
+
+.trending_user div {
+  border: 2px solid black;
+}
+/* adw
+WdW
+d
+:window-inactivewd
+Wd
+:window-inactiveDW
+dW
+dW
+feDropShadowwswS
+:window-inactivesWS
+wS
+wSw
+sw
+sW
+sW
+sWS
+wSw
+sW
+sW
+switchS */
+
+.right_card_text {
+  border: 4px solid blue;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  justify-content: center;
+  gap: 8px;
+}
+.right_top_card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+.inner {
+  width: 80%;
+  height: 1px;
+  margin: 0px auto;
+  border-bottom: 3px solid #969696;
+}
+
+.right_card_text_heading {
+  font-weight: bold;
+  font-size: large;
+}
+.right_card_text_body {
+  font-weight: lighter;
+  font-size: medium;
 }
